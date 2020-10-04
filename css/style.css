@@ -1,0 +1,165 @@
+@-webkit-keyframes one {
+    0% {
+        margin-left: 100px; margin-top: 100px;
+        transform: scale(1, 1);
+        }
+    50% {
+        margin-left: 1000px; margin-top: 100px;
+        transform: scale(3, 3);
+        }
+  100% {
+        margin-left: 100px; margin-top: 100px;
+        transform: scale(1, 1);}
+                        }
+
+.하나 {
+    width: 50px;
+    height: 50px;
+    background-color: #e6d3ff;
+    border-radius: 25px;
+    animation-name: one;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transition-property: background-color;
+    transition-duration: 1s;
+    animation-play-state: running;
+}
+.하나:hover {
+    background-color: #1a0d2f;
+    transform: scale(0, 0);
+    animation-play-state: paused;
+}
+
+
+@-webkit-keyframes two {
+    0% {
+        margin-left: 650px; margin-top: 100px;
+        transform: scale(1, 1);
+        }
+    50% {
+        margin-left: 100px; margin-top: 100px;
+        transform: scale(3, 3);
+        }
+  100% {
+        margin-left: 650px; margin-top: 100px;
+        transform: scale(1, 1);}
+                        }
+
+.둘 {
+    width: 50px;
+    height: 50px;
+    background-color: #d5b4ff;
+    border-radius: 25px;
+    animation-name: two;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transition-property: background-color;
+    transition-duration: 1s;
+    animation-play-state: running;
+}
+.둘:hover {
+    background-color: #1a0d2f;
+    transform: scale(0, 0);
+    animation-play-state: paused;
+}
+@-webkit-keyframes three {
+    0% {
+        margin-left: 100px; margin-top: 100px;
+        transform: scale(1, 1);
+        }
+    50% {
+        margin-left: 900px; margin-top: 100px;
+        transform: scale(3, 3);
+        }
+  100% {
+        margin-left: 100px; margin-top: 100px;
+        transform: scale(1, 1);}
+                        }
+
+.셋 {
+    width: 50px;
+    height: 50px;
+    background-color: #ba87fb;
+    border-radius: 25px;
+    animation-name: three;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transition-property: background-color;
+    transition-duration: 1s;
+    animation-play-state: running;
+}
+.셋:hover {
+    background-color: #1a0d2f;
+    transform: scale(0, 0);
+    animation-play-state: paused;
+}
+
+
+@-webkit-keyframes four {
+    0% {
+        margin-left: 300px; margin-top: 100px;
+        transform: scale(1, 1);
+        }
+    50% {
+        margin-left: 100px; margin-top: 100px;
+        transform: scale(3, 3);
+        }
+  100% {
+        margin-left: 300px; margin-top: 100px;
+        transform: scale(1, 1);}
+                        }
+
+.넷 {
+    width: 50px;
+    height: 50px;
+    background-color: #9340fd;
+    border-radius: 25px;
+    animation-name: four;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transition-property: background-color;
+    transition-duration: 1s;
+    animation-play-state: running;
+}
+.넷:hover {
+    background-color: #1a0d2f;
+    transform: scale(0, 0);
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes five {
+    0% {
+        margin-left: 100px; margin-top: 100px;
+        transform: scale(1, 1);
+        }
+    50% {
+        margin-left: 900px; margin-top: 100px;
+        transform: scale(3, 3);
+        }
+  100% {
+        margin-left: 100px; margin-top: 100px;
+        transform: scale(1, 1);}
+                        }
+
+.다섯 {
+    width: 50px;
+    height: 50px;
+    background-color: #7000ff;
+    border-radius: 25px;
+    animation-name: five;
+    animation-duration: 11s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transition-property: background-color;
+    transition-duration: 1s;
+    animation-play-state: running;
+}
+.다섯:hover {
+    background-color: #1a0d2f;
+    transform: scale(0, 0);
+    animation-play-state: paused;
+}
